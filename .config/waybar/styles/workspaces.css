@@ -1,0 +1,114 @@
+#workspaces {
+  /* padding-right: 4px;
+   padding-left: 4px; */
+/*   font-weight: bold;
+   min-height: 0px;
+   padding: 2px 10px 2px 10px;
+   background-color: @background;
+   border-radius: 20px;
+   font-size: 0px; */
+    border-radius: 0;
+   /*padding: 0px 10px 0px 10px;*/
+   background: #000000;
+   border-radius: 0 0 10 10;
+   padding: 4 5;
+}
+
+#workspaces button {
+   /*background: @foreground;*/
+   border-radius: 8px;
+   /*border: 1.5px solid @color1;*/
+   color: @foreground;
+   padding: 0px 0px 0px 0px;
+   margin-right: 2px;
+   margin-left: 2px;
+  /* margin-top: 0.333rem;
+   margin-bottom: 0.333rem; */
+   font-weight: bold;
+   text-shadow: 0px 0px 3px #000000;
+   min-width: 0px;
+   transition: 0.1s;
+
+}
+
+#workspaces button.empty {
+   /*border: 1.7px solid @foreground;*/
+   font-weight: bold;
+   padding: 0 0;
+   color: @color8;
+}
+
+#workspaces button.focused {
+   color: @color1;
+   padding-right: 20px;
+   padding-left: 20px;
+  /* margin-top: 0.5px;
+   margin-bottom: 0.5px; */
+   font-weight: bold;
+   background: @color1;
+   box-shadow: 0px 0px 3px #000000;
+}
+
+#workspaces button:hover {
+   transition: all 0.25s;
+   color: @color1;
+}
+
+#tags {
+  /* padding-right: 4px;
+   padding-left: 4px; */
+/*   font-weight: bold;
+   min-height: 0px;
+   padding: 2px 10px 2px 10px;
+   background-color: @background;
+   border-radius: 20px;
+   font-size: 0px; */
+    border-radius: 0;
+   /*padding: 0px 10px 0px 10px;*/
+   background: #000000;
+   border-radius: 0 0 10 10;
+   padding: 4 5;
+}
+
+#tags button {
+   /*background: @foreground;*/
+   border-radius: 8px;
+   /*border: 1.5px solid @color1;*/
+   color: @color8;
+   padding: 0px 0px 0px 0px;
+   margin-right: 2px;
+   margin-left: 2px;
+  /* margin-top: 0.333rem;
+   margin-bottom: 0.333rem; */
+   font-weight: bold;
+  /* text-shadow: 0px 0px 0px #000000; */
+   min-width: 0px;
+   transition: 0.1s;
+   font-size: 8px;
+
+}
+
+#tags button.occupied {
+   /*border: 1.7px solid @foreground;*/
+   font-weight: bold;
+   padding: 0 0;
+   color: @foreground;
+   font-size: 0px;
+   font-size: 13px;
+}
+
+#tags button.focused {
+   color: @color1;
+   padding-right: 20px;
+   padding-left: 20px;
+  /* margin-top: 0.5px;
+   margin-bottom: 0.5px; */
+   font-weight: bold;
+   background: @color1;
+   font-size: 0px;
+}
+
+#tags button:hover {
+   transition: all 0.25s;
+   color: @color1;
+}

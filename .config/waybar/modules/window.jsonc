@@ -1,0 +1,15 @@
+{
+
+"dwl/window": {
+
+    "format": "{app_id}",
+    "separate-outputs": true,
+    "icon": true,
+    "icon-size": 18,
+
+    "rewrite": {
+	"": "  Desktop"
+    }
+},
+
+}

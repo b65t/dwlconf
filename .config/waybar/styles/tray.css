@@ -1,0 +1,19 @@
+#tray {
+   padding: 0px 5px;
+   background: transparent;
+   border-radius: 5px;
+   margin-top: 3px;
+   margin-bottom: 3px;
+}
+
+#tray menu {
+  background: @background;
+  margin: 2px;
+  padding: 5px;
+  border: 1px solid @foreground;
+  border-radius: 10px;
+}
+
+#tray menu:hover {
+  background: alpha(@color1, 0.5);
+}

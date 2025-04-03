@@ -1,0 +1,15 @@
+#clock {
+    font-weight: bold;
+    color: @foreground;
+    padding: 0 5;
+    background: @color8;
+    margin: 3 3 3 0;
+    border-radius: 0 8 8 0;
+    text-shadow: 0px 0px 3px #000000;
+    font-size: 13px;
+}
+#clock:hover {
+    color: @foreground;
+    background: @color1;
+    transition: all 0.25s linear;
+}

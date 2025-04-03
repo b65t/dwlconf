@@ -1,0 +1,37 @@
+{
+    "include": "~/.config/waybar/modules/init.jsonc",
+
+    "layer": "top",
+    "exclusive": true,
+    "passthrough": false,
+    "position": "top",
+    "fixed-center": true,
+    "ipc": true,
+    "spacing": 0,
+    "margin": "0 0 0 0",
+    "reload_style_on_change": true,
+    "height": 22,
+
+    "modules-left": [
+      "custom/logo",
+      "custom/sep2",
+      "cpu",
+      "memory",
+      "dwl/window"
+   ],
+
+     "modules-center": [
+      "custom/corners-1",
+      "dwl/tags",
+      "custom/corners-2"
+    ],
+
+    "modules-right": [
+      "group/drawer1",
+      "sway/language",
+ //     "privacy",
+      "pulseaudio",
+      "network",
+      "clock"
+    ]
+}
