@@ -73,3 +73,15 @@
 #custom-exit:hover {
     color: @foreground;
 }
+
+#custom-restart {
+    font-weight: bold;
+    color: alpha(@foreground, 0.6);
+    margin-right: 3px;
+    font-size: 15px;
+}
+
+#custom-restart:hover {
+   color: @color1;
+   transition: all 0.25s linear;
+}

@@ -28,7 +28,8 @@
 
     "modules-right": [
       "group/drawer1",
-      "sway/language",
+      "custom/restart",
+      "custom/dunst",
  //     "privacy",
       "pulseaudio",
       "network",
