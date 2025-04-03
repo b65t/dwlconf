@@ -170,6 +170,12 @@ static const char *pscreenshot[] = {
     "sh", "-c", "grim -g \"$(slurp)\" - | wl-copy && notify-send 'Screenshot taken' 'check your clipboard'", 
     NULL
 };
+static const char *swww[] = {
+    "sh",
+    "-c",
+    "~/.config/scripts/swww-switcher.sh",
+    NULL
+};
 
 static const Key keys[] = {
 	/* Note that Shift changes certain key codes: c -> C, 2 -> at, etc. */
@@ -199,8 +205,9 @@ static const Key keys[] = {
 	{ MODKEY,                    XKB_KEY_period,     focusmon,       {.i = WLR_DIRECTION_RIGHT} },
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_less,       tagmon,         {.i = WLR_DIRECTION_LEFT} },
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_greater,    tagmon,         {.i = WLR_DIRECTION_RIGHT} },
-        { MODKEY,                    XKB_KEY_p,               spawn,          {.v = screenshot } },
-        { MODKEY|WLR_MODIFIER_SHIFT,                    XKB_KEY_P,               spawn,          {.v = pscreenshot } },
+        { MODKEY,                    XKB_KEY_p,          spawn,          {.v = screenshot } },
+        { MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_P,          spawn,          {.v = pscreenshot } },
+        { MODKEY,                    XKB_KEY_w,          spawn,          {.v = swww } },
 	TAGKEYS(          XKB_KEY_1, XKB_KEY_exclam,                     0),
 	TAGKEYS(          XKB_KEY_2, XKB_KEY_at,                         1),
 	TAGKEYS(          XKB_KEY_3, XKB_KEY_numbersign,                 2),
