@@ -22,7 +22,7 @@
 
 
      "custom/dunst": {
-      "exec": "dunstctl is-paused | grep -q 'true' && echo '' || echo ''",
+      "exec": "dunstctl is-paused | grep -q 'true' && echo '󰂛' || echo '󰂚'",
       "on-click": "dunstctl set-paused toggle",
       "tooltip": false,
       "interval": 1

@@ -10,7 +10,7 @@
 window#waybar {
    /* background: @background; */
     background-color: alpha(@background, 0.99);
-    border-radius: 0 0 10 10;
+    border-radius: 0 0 0 0;
 }
 
 tooltip {

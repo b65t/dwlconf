@@ -1,6 +1,6 @@
 {
  "clock": {
-        "format": "󰥔 {:%I:%M}",
+        "format":  "󰥔 {:%I:%M}",
         // {: %A,%d/%m}
 	"on-click": "gnome-calendar",
 	"tooltip-format": "<tt>{calendar}</tt>",

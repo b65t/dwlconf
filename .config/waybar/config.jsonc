@@ -10,7 +10,7 @@
     "spacing": 0,
     "margin": "0 0 0 0",
     "reload_style_on_change": true,
-    "height": 22,
+    "height": 26,
 
     "modules-left": [
       "custom/logo",
