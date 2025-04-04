@@ -6,10 +6,18 @@ set noshowmode
 set noshowcmd
 set shortmess+=F
 
-autocmd InsertEnter * set cul
-autocmd InsertLeave * set nocul
+set mouse=r
+set mousemodel=popup
+set clipboard=unnamedplus
 
-set mouse=a
+set incsearch
+set hlsearch
+
+set ttyfast
+
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+let &t_SR = "\e[4 q"
 
 call plug#begin('~/.vim/plugged')
 
@@ -83,4 +91,3 @@ let g:startify_lists = [
       \ { 'type': 'files',     'header': ['📁 Recent Files'] },
       \ { 'type': 'dir',       'header': ['📂 Current Dir: '. getcwd()] },
       \ ]
-
